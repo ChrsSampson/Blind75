@@ -6,7 +6,7 @@ This app will pick a random problem between 1 and 75 that you have not previousl
 that number corresponds to a problem from the blind 75 list (https://neetcode.io/practice)
 all of these problems are from LeetCode and are common interview questions
 
-##Get Started
+###Get Started
 
 Fork This Repo
 
