@@ -47,7 +47,7 @@ function getRandomProblem(max) {
         }
     }
     // save the number of the problem that was assigned
-    problems.push(r);
+    problems.push(random);
     fs.writeFileSync(fileName, problems.join('\n'));
     // return the number of the problem that was assigned
     return random;
@@ -56,5 +56,7 @@ function getRandomProblem(max) {
 const r = getRandomProblem(max);
 
 // give the user the number
-console.log(`Your problem today is problem ${r} (from the top down) /n `);
-console.log('from https://neetcode.io/practice');
+console.log(`
+    Your problem today is problem ${r} (from the top down) \n
+    from https://neetcode.io/practice
+`);
